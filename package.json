@@ -1,0 +1,25 @@
+{
+  "name": "crepl",
+  "version": "1.0.0",
+  "description": "The naked pattern library generator! Styles not included...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook"
+  },
+  "keywords": [
+    "pattern",
+    "library"
+  ],
+  "author": "mrjadaml",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@storybook/react": "^5.1.10",
+    "babel-loader": "^8.0.6"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
