@@ -1,10 +1,9 @@
-const path = require('path');
-
 const setCssModulesRule = rule => {
   const nextRule = rule;
-  const nextOptions = { ...rule.use[1].options, modules: true }
+  const cssLoader = rule.use[1];
+  const nextOptions = { ...cssLoader.options, modules: true }
 
-  nextRule.use[1].options = nextOptions;
+  cssLoader.options = nextOptions;
   return nextRule;
 }
 
