@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should accept types 1`] = `
+<DocumentFragment>
+  <input
+    class="input"
+    type="checkbox"
+  />
+</DocumentFragment>
+`;
+
+exports[`Input should render an input 1`] = `
+<DocumentFragment>
+  <input
+    class="input"
+    type="text"
+  />
+</DocumentFragment>
+`;

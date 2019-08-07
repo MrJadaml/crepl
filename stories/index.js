@@ -2,6 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import Button from '../components/atoms/button';
 import Heading from '../components/atoms/heading';
+import Input from '../components/atoms/input';
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -21,4 +22,26 @@ storiesOf('Heading', module)
       <Heading type="h5">h5 Heading</Heading>
       <Heading type="h6">h6 Heading</Heading>
     </>
-  ))
+  ));
+
+storiesOf('Input', module)
+  .add('Text (Default)', () => <Input /> )
+  .add('Search', () => <Input type="search" /> )
+  .add('Email', () => <Input type="email" /> )
+  .add('Password', () => <Input type="password" /> )
+  .add('URL', () => <Input type="url" /> )
+  .add('Tele', () => <Input type="tel" /> )
+  .add('Number', () => <Input type="number" /> )
+  .add('Date', () => <Input type="date" /> )
+  .add('Date Local', () => <Input type="datetime-local" /> )
+  .add('Month', () => <Input type="month" /> )
+  .add('Week', () => <Input type="week" /> )
+  .add('Time', () => <Input type="time" /> )
+  .add('Checkbox', () => <Input type="checkbox" /> )
+  .add('Radio', () => <Input type="radio" /> )
+  .add('Color', () => <Input type="color" /> )
+  .add('Range', () => <Input type="range" /> )
+  .add('File', () => <Input type="file" /> )
+  .add('Reset', () => <Input type="reset" /> )
+  .add('Submit', () => <Input type="submit" /> )
+  .add('Button', () => <Input type="button" /> )
