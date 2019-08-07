@@ -10,16 +10,6 @@ exports[`Heading should render a dynamic heading 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Heading should render an h1 heading 1`] = `
-<DocumentFragment>
-  <h1
-    class="h1"
-  >
-    Hi Bob
-  </h1>
-</DocumentFragment>
-`;
-
 exports[`Heading should render an h1 heading by default 1`] = `
 <DocumentFragment>
   <h1
@@ -27,15 +17,5 @@ exports[`Heading should render an h1 heading by default 1`] = `
   >
     Hi Bob
   </h1>
-</DocumentFragment>
-`;
-
-exports[`Heading should render an h2 heading 1`] = `
-<DocumentFragment>
-  <h2
-    class="h2"
-  >
-    Hi Carl
-  </h2>
 </DocumentFragment>
 `;
