@@ -3,6 +3,7 @@ import { storiesOf } from '@storybook/react';
 import Button from '../components/atoms/button';
 import Heading from '../components/atoms/heading';
 import Input from '../components/atoms/input';
+import Textarea from '../components/atoms/textarea';
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -45,3 +46,8 @@ storiesOf('Input', module)
   .add('Reset', () => <Input type="reset" /> )
   .add('Submit', () => <Input type="submit" /> )
   .add('Button', () => <Input type="button" /> )
+
+storiesOf('Textarea', module)
+  .add('With text', () => (
+    <Textarea value="Hello Textarea"></Textarea>
+  ))

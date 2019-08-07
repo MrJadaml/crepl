@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Textarea should render a textarea element 1`] = `
+<DocumentFragment>
+  <textarea
+    class="textarea"
+  >
+    Bob has a lot to say
+  </textarea>
+</DocumentFragment>
+`;
