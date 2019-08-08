@@ -4,6 +4,7 @@ import Button from '../components/atoms/button';
 import Heading from '../components/atoms/heading';
 import Input from '../components/atoms/input';
 import Textarea from '../components/atoms/textarea';
+import Label from '../components/atoms/label';
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -51,3 +52,6 @@ storiesOf('Textarea', module)
   .add('With text', () => (
     <Textarea value="Hello Textarea"></Textarea>
   ))
+
+storiesOf('Label', module)
+  .add('Default', () => <Label /> )

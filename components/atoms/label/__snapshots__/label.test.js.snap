@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label should render a label 1`] = `
+<DocumentFragment>
+  <label
+    class="label"
+    for="foo"
+  >
+    Foo label
+  </label>
+</DocumentFragment>
+`;
