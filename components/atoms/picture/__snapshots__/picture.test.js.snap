@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Picture should render an anchor tag 1`] = `
+<DocumentFragment>
+  <picture
+    class="picture"
+  >
+    <img
+      class="image"
+      src="/media/examples/painted-hand-298-332.jpg"
+    />
+  </picture>
+</DocumentFragment>
+`;

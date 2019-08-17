@@ -6,6 +6,7 @@ import { Input } from '../components/atoms/input';
 import { Textarea } from '../components/atoms/textarea';
 import { Label } from '../components/atoms/label';
 import { Link } from '../components/atoms/link';
+import { Picture } from '../components/atoms/picture';
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -59,3 +60,39 @@ storiesOf('Label', module)
 
 storiesOf('Link', module)
   .add('Default', () => <Link href="#">blah</Link> )
+
+storiesOf('Picture', module)
+  .add('Default image', () => (
+    <Picture src="https://via.placeholder.com/300x200" />
+  ))
+  .add('Source Set', () => (
+    <Picture
+      src="https://via.placeholder.com/900x900"
+      sources={[
+        { srcset: "https://via.placeholder.com/300x300" }
+      ]}
+    />
+  ))
+  .add('Multiple Source Sets', () => {
+    const sources = [
+      {
+        media: "(max-width: 500px)",
+        srcset: "https://via.placeholder.com/300x150",
+      },
+      {
+        media: "(min-width: 501px) and (max-width: 800px)",
+        srcset: "https://via.placeholder.com/500x250",
+      },
+      {
+        media: "(min-width: 801px)",
+        srcset: "https://via.placeholder.com/800x350",
+      },
+    ];
+
+    return (
+      <Picture
+        src="https://via.placeholder.com/900x900"
+        sources={sources}
+      />
+    );
+  })
