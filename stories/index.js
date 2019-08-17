@@ -5,6 +5,7 @@ import Heading from '../components/atoms/heading';
 import Input from '../components/atoms/input';
 import Textarea from '../components/atoms/textarea';
 import Label from '../components/atoms/label';
+import Link from '../components/atoms/link';
 
 storiesOf('Button', module)
   .add('with text', () => (
@@ -55,3 +56,6 @@ storiesOf('Textarea', module)
 
 storiesOf('Label', module)
   .add('Default', () => <Label /> )
+
+storiesOf('Link', module)
+  .add('Default', () => <Link href="#">blah</Link> )
