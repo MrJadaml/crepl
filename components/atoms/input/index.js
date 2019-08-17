@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-const Input = ({ type, ...rest }) => {
+export const Input = ({ type, ...rest }) => {
   return (
     <input
       type={type}
@@ -19,5 +19,3 @@ Input.propTypes = {
 Input.defaultProps = {
   type: 'text',
 };
-
-export default Input;

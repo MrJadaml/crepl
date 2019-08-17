@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-const Heading = ({ children, type, ...rest }) => {
+export const Heading = ({ children, type, ...rest }) => {
   const HeadingType = type;
 
   return (
@@ -20,5 +20,3 @@ Heading.propTypes = {
 Heading.defaultProps = {
   type: 'h1',
 };
-
-export default Heading;

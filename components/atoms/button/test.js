@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './index';
+import { Button } from './index';
 import { render } from '@testing-library/react';
 import { getByText } from '@testing-library/dom';
 

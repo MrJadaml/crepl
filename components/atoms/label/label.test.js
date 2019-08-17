@@ -1,5 +1,5 @@
 import React from 'react';
-import Label from './index';
+import { Label } from './index';
 import { cleanup, render } from '@testing-library/react';
 import { getByText } from '@testing-library/dom';
 

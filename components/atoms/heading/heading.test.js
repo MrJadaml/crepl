@@ -1,5 +1,5 @@
 import React from 'react';
-import Heading from './index';
+import { Heading } from './index';
 import { cleanup, render } from '@testing-library/react';
 import { getByText } from '@testing-library/dom';
 

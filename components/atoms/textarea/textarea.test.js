@@ -1,5 +1,5 @@
 import React from 'react';
-import Textarea from './index';
+import { Textarea } from './index';
 import { cleanup, render } from '@testing-library/react';
 import { getByText } from '@testing-library/dom';
 

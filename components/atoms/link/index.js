@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-const Link = ({ children, href, ...rest }) => {
+export const Link = ({ children, href, ...rest }) => {
   return (
     <a
       href={href}
@@ -21,5 +21,3 @@ Link.propTypes = {
 
 Link.defaultProps = {
 };
-
-export default Link;

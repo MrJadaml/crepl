@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-const Label = ({ children, htmlFor, ...rest }) => {
+export const Label = ({ children, htmlFor, ...rest }) => {
   return (
     <label
       htmlFor={htmlFor}
@@ -21,5 +21,3 @@ Label.propTypes = {
 
 Label.defaultProps = {
 };
-
-export default Label;

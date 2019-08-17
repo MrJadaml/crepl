@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-const Button = ({ children, ...rest }) => (
+export const Button = ({ children, ...rest }) => (
   <button {...rest} className={styles.button}>
     {children}
   </button>
@@ -11,5 +11,3 @@ const Button = ({ children, ...rest }) => (
 Button.propTypes = {
   children: PropTypes.node.isRequired,
 };
-
-export default Button;
