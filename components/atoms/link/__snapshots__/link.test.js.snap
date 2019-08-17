@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link should render a Link 1`] = `
+<DocumentFragment>
+  <a
+    class="link"
+    href="#foo"
+  >
+    Foo link
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link should render a label 1`] = `
+<DocumentFragment>
+  <a
+    class="link"
+    href="#foo"
+  >
+    Foo label
+  </a>
+</DocumentFragment>
+`;
+
+exports[`Link should render an anchor tag 1`] = `
+<DocumentFragment>
+  <a
+    class="link"
+    href="#foo"
+  >
+    Foo link
+  </a>
+</DocumentFragment>
+`;
