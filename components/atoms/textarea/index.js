@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.css';
 
-const Textarea = ({ value, ...rest }) => {
+export const Textarea = ({ value, ...rest }) => {
   const handleChange = () => {
   }
 
@@ -23,5 +23,3 @@ Textarea.propTypes = {
 Textarea.defaultProps = {
   value: '',
 };
-
-export default Textarea;

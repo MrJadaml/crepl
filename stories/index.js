@@ -1,11 +1,11 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Button from '../components/atoms/button';
-import Heading from '../components/atoms/heading';
-import Input from '../components/atoms/input';
-import Textarea from '../components/atoms/textarea';
-import Label from '../components/atoms/label';
-import Link from '../components/atoms/link';
+import { Button } from '../components/atoms/button';
+import { Heading } from '../components/atoms/heading';
+import { Input } from '../components/atoms/input';
+import { Textarea } from '../components/atoms/textarea';
+import { Label } from '../components/atoms/label';
+import { Link } from '../components/atoms/link';
 
 storiesOf('Button', module)
   .add('with text', () => (
