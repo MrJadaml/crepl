@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from './index';
 import { cleanup, render } from '@testing-library/react';
-import { getByText } from '@testing-library/dom';
+import { getByRole } from '@testing-library/dom';
 
 afterEach(cleanup);
 
