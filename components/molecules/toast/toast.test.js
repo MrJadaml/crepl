@@ -1,4 +1,3 @@
-
 it('should do stuff', () => {
-  console.log('yeaaaa')
+  console.log('yeaaaa');
 });

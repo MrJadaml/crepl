@@ -4,7 +4,7 @@ import styles from './styles.css';
 
 export const Textarea = ({ value, ...rest }) => {
   const handleChange = () => {
-  }
+  };
 
   return (
     <textarea

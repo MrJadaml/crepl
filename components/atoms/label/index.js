@@ -11,7 +11,7 @@ export const Label = ({ children, htmlFor, ...rest }) => {
     >
       {children}
     </label>
-  )
+  );
 };
 
 Label.propTypes = {
