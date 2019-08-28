@@ -9,7 +9,7 @@ export const Heading = ({ children, type, ...rest }) => {
     <HeadingType className={styles[`${type}`]} {...rest}>
       {children}
     </HeadingType>
-  )
+  );
 };
 
 Heading.propTypes = {

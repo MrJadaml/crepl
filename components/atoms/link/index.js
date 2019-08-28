@@ -11,7 +11,7 @@ export const Link = ({ children, href, ...rest }) => {
     >
       {children}
     </a>
-  )
+  );
 };
 
 Link.propTypes = {
